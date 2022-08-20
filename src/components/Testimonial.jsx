@@ -16,7 +16,9 @@ export default function Testimonial(props) {
             <img src="./star.svg" className='star'/>
         </div>
       </div>
-      <p>{props.description}</p>
+      <div>
+        <p>{props.description}</p>
+      </div>
     </div>
   )
 }
